@@ -218,7 +218,7 @@ switch (platform) {
         return;
 }
 
-var foldersToProcess = ['javascript', 'style', 'media', 'js', 'img', 'css', 'html', 'cordova-js-src', 'plugins', 'assets'];
+var foldersToProcess = ['javascript', 'style', 'media', 'js', 'img', 'css', 'html', 'cordova-js-src', 'plugins', 'assets', 'views', 'partials'];
 
 if (processRoot) processFiles(platformPath, true);
 
